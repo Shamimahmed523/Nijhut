@@ -3804,7 +3804,7 @@ ol {
 	.hero__items {
 		background-image: url('img/hero/hero-1.jpg'); /* Use your image path */
 		background-size: cover; /* Ensure the image covers the entire div */
-		background-position: right center; /* Align the right part of the image */
+		background-position:calc(100% - 30%) center; /* Align the right part of the image */
 		height: 400px; /* Set a height for your hero section */
 	}
 }
